@@ -27,6 +27,7 @@ class HttpManager: NSObject {
         manager.securityPolicy = securityPolicy
         
         let s = 2
+        let gitPull = 10
     }
     
     func post(interface:String, param:Dictionary<String,Any>, success:@escaping successBlock, failur:@escaping failurBlock) -> Void {
