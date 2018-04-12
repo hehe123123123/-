@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		182D18A8207F42610004954B /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 182D18A9207F42610004954B /* Masonry.framework */; };
+		182D18AA207F42650004954B /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 182D18AB207F42650004954B /* SDWebImage.framework */; };
 		183BBF7D207CB2D90042BBAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183BBF7C207CB2D90042BBAA /* AppDelegate.swift */; };
 		183BBF7F207CB2D90042BBAA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183BBF7E207CB2D90042BBAA /* ViewController.swift */; };
 		183BBF82207CB2D90042BBAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 183BBF80207CB2D90042BBAA /* Main.storyboard */; };
@@ -43,6 +45,12 @@
 /* Begin PBXFileReference section */
 		09B8F53CB07027A6A9662D5C /* Pods_______.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_______.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BBA31CE4469F11AA3EABB89 /* Pods-统一封装版本.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-统一封装版本.release.xcconfig"; path = "Pods/Target Support Files/Pods-统一封装版本/Pods-统一封装版本.release.xcconfig"; sourceTree = "<group>"; };
+		182D18A1207F41A10004954B /* Pods_统一封装版本.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = "Pods_统一封装版本.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		182D18A3207F41B10004954B /* Pods_统一封装版本Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = "Pods_统一封装版本Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		182D18A5207F41B60004954B /* Pods_统一封装版本Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = "Pods_统一封装版本Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		182D18A7207F41BB0004954B /* Pods_统一封装版本UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = "Pods_统一封装版本UITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		182D18A9207F42610004954B /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		182D18AB207F42650004954B /* SDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SDWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		183BBF79207CB2D90042BBAA /* 统一封装版本.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "统一封装版本.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		183BBF7C207CB2D90042BBAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		183BBF7E207CB2D90042BBAA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -76,6 +84,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				182D18AA207F42650004954B /* SDWebImage.framework in Frameworks */,
+				182D18A8207F42610004954B /* Masonry.framework in Frameworks */,
 				183BBFB4207DE4900042BBAA /* LeanCloud.framework in Frameworks */,
 				183BBFB2207DE48C0042BBAA /* Alamofire.framework in Frameworks */,
 				183BBFAA207CBB9C0042BBAA /* AFNetworking.framework in Frameworks */,
@@ -167,6 +177,12 @@
 		1E1F8070B400A92A78864F3C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				182D18AB207F42650004954B /* SDWebImage.framework */,
+				182D18A9207F42610004954B /* Masonry.framework */,
+				182D18A7207F41BB0004954B /* Pods_统一封装版本UITests.framework */,
+				182D18A5207F41B60004954B /* Pods_统一封装版本Tests.framework */,
+				182D18A3207F41B10004954B /* Pods_统一封装版本Tests.framework */,
+				182D18A1207F41A10004954B /* Pods_统一封装版本.framework */,
 				183BBFB5207DE4900042BBAA /* LeanCloud.framework */,
 				183BBFB3207DE48C0042BBAA /* Alamofire.framework */,
 				183BBFB1207DE4070042BBAA /* Pods_统一封装版本.framework */,
@@ -371,12 +387,16 @@
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/LeanCloud/LeanCloud.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LeanCloud.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -514,7 +534,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -565,7 +585,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";

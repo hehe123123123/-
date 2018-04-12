@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x7edf;&#x4e00;&#x5c01;&#x88c5;&#x7248;&#x672c;/Request/HttpManager.swift"
+            timestampString = "545126639.197517"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "post(interface:param:success:failur:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "&#x7edf;&#x4e00;&#x5c01;&#x88c5;&#x7248;&#x672c;.HttpManager.post(interface: Swift.String, param: Swift.Dictionary&lt;Swift.String, Any&gt;, success: (Swift.Optional&lt;Any&gt;) -&gt; (), failur: (Swift.Error) -&gt; ()) -&gt; ()"
+                  moduleName = "&#x7edf;&#x4e00;&#x5c01;&#x88c5;&#x7248;&#x672c;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apple/Desktop/%E7%BB%9F%E4%B8%80%E5%B0%81%E8%A3%85%E7%89%88%E6%9C%AC/%E7%BB%9F%E4%B8%80%E5%B0%81%E8%A3%85%E7%89%88%E6%9C%AC/Request/HttpManager.swift"
+                  timestampString = "545211004.352772"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "222">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__ObjC.Progress) -&gt; () in &#x7edf;&#x4e00;&#x5c01;&#x88c5;&#x7248;&#x672c;.HttpManager.post(interface: Swift.String, param: Swift.Dictionary&lt;Swift.String, Any&gt;, success: (Swift.Optional&lt;Any&gt;) -&gt; (), failur: (Swift.Error) -&gt; ()) -&gt; ()"
+                  moduleName = "&#x7edf;&#x4e00;&#x5c01;&#x88c5;&#x7248;&#x672c;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apple/Desktop/%E7%BB%9F%E4%B8%80%E5%B0%81%E8%A3%85%E7%89%88%E6%9C%AC/%E7%BB%9F%E4%B8%80%E5%B0%81%E8%A3%85%E7%89%88%E6%9C%AC/Request/HttpManager.swift"
+                  timestampString = "545211004.355114"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "12">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x7edf;&#x4e00;&#x5c01;&#x88c5;&#x7248;&#x672c;/Request/HttpManager.swift"
+            timestampString = "545126639.197593"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "post(interface:param:success:failur:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "&#x7edf;&#x4e00;&#x5c01;&#x88c5;&#x7248;&#x672c;.HttpManager.post(interface: Swift.String, param: Swift.Dictionary&lt;Swift.String, Any&gt;, success: (Swift.Optional&lt;Any&gt;) -&gt; (), failur: (Swift.Error) -&gt; ()) -&gt; ()"
+                  moduleName = "&#x7edf;&#x4e00;&#x5c01;&#x88c5;&#x7248;&#x672c;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apple/Desktop/%E7%BB%9F%E4%B8%80%E5%B0%81%E8%A3%85%E7%89%88%E6%9C%AC/%E7%BB%9F%E4%B8%80%E5%B0%81%E8%A3%85%E7%89%88%E6%9C%AC/Request/HttpManager.swift"
+                  timestampString = "545211004.3596621"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "600">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__ObjC.Progress) -&gt; () in &#x7edf;&#x4e00;&#x5c01;&#x88c5;&#x7248;&#x672c;.HttpManager.post(interface: Swift.String, param: Swift.Dictionary&lt;Swift.String, Any&gt;, success: (Swift.Optional&lt;Any&gt;) -&gt; (), failur: (Swift.Error) -&gt; ()) -&gt; ()"
+                  moduleName = "&#x7edf;&#x4e00;&#x5c01;&#x88c5;&#x7248;&#x672c;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apple/Desktop/%E7%BB%9F%E4%B8%80%E5%B0%81%E8%A3%85%E7%89%88%E6%9C%AC/%E7%BB%9F%E4%B8%80%E5%B0%81%E8%A3%85%E7%89%88%E6%9C%AC/Request/HttpManager.swift"
+                  timestampString = "545211004.3616689"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (__ObjC.URLSessionDataTask, Swift.Optional&lt;Any&gt;) -&gt; () in &#x7edf;&#x4e00;&#x5c01;&#x88c5;&#x7248;&#x672c;.HttpManager.post(interface: Swift.String, param: Swift.Dictionary&lt;Swift.String, Any&gt;, success: (Swift.Optional&lt;Any&gt;) -&gt; (), failur: (Swift.Error) -&gt; ()) -&gt; ()"
+                  moduleName = "&#x7edf;&#x4e00;&#x5c01;&#x88c5;&#x7248;&#x672c;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apple/Desktop/%E7%BB%9F%E4%B8%80%E5%B0%81%E8%A3%85%E7%89%88%E6%9C%AC/%E7%BB%9F%E4%B8%80%E5%B0%81%E8%A3%85%E7%89%88%E6%9C%AC/Request/HttpManager.swift"
+                  timestampString = "545211004.363546"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "29">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
