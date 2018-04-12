@@ -26,8 +26,6 @@ class HttpManager: NSObject {
         manager.responseSerializer.acceptableContentTypes = nil
         manager.securityPolicy = securityPolicy
         
-        let s = 2
-        let budonga = 3
     }
     
     func post(interface:String, param:Dictionary<String,Any>, success:@escaping successBlock, failur:@escaping failurBlock) -> Void {
